@@ -120,7 +120,8 @@ cat ${INPUT_FILE} | awk '{print $2"	"$1}' >> ${INFILE_NAME}
 COUNT=`cat ${INFILE_NAME} | wc -l | sed 's/ //g'`
 if [ ${COUNT} -lt ${MINIMUM_FILE_SIZE} ]
 then
-    echo "\n**** WARNING ****" >> ${LOG}
+    echo "" >> ${LOG}
+    echo "**** WARNING ****" >> ${LOG}
     echo "${INFILE_NAME} has ${COUNT} lines." >> ${LOG}
     echo "Expecting at least ${MINIMUM_FILE_SIZE} lines." >> ${LOG}
     echo "Sanity error detected in association file" | tee -a ${LOG}
