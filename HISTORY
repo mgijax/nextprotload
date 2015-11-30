@@ -1,3 +1,9 @@
+TAG: nextprotload-6-0-1-1
+DATE: 11/30/2015
+STAFF: dbm
+CHANGES:
+1) nextprotload.config.default: Don't override MAIL_LOG_PROC and MAIL_LOG_CUR
+
 TAG: nextprotload-6-0-0-2
 DATE: 08/25/2015
 STAFF: dbm
