@@ -48,7 +48,7 @@ RPTDIR=${FILEDIR}/reports
 
 # Full path to the input directory and input file.
 #
-INPUT_FILE=${DATADOWNLOADS}/ftp.nextprot.org/pub/current_release/mapping/nextprot_geneid.txt
+INPUT_FILE=${DATADOWNLOADS}/download.nextprot.org/pub/current_release/mapping/nextprot_geneid.txt
 
 # Full path to the association file that is created from the input file.
 #
