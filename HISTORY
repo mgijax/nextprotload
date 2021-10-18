@@ -1,3 +1,9 @@
+TAG: nextprotload-6-0-17-1
+DATE: 10/18/2021
+STAFF: dbm
+CHANGES:
+1) nextprotload.config.default: new input file path
+
 TAG: nextprotload-6-0-4-1
 DATE: 06/16/2016
 STAFF: lec 
